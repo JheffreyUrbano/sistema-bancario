@@ -22,3 +22,4 @@ nbdist/
 Thumbs.db
 
 nbactions.xml
+/target/
