@@ -4,11 +4,19 @@
 
 /**
  *
- * @author Jurbano
+ * @author Daniel
  */
-public class SistemaBancario {
+import controlador.ControladorBanco;
+import vista.VistaBanco;
 
+import javax.swing.SwingUtilities;
+
+public class SistemaBancario {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        SwingUtilities.invokeLater(() -> {
+            VistaBanco vista = new VistaBanco();
+            new ControladorBanco(vista);
+            vista.setVisible(true);
+        });
     }
 }
