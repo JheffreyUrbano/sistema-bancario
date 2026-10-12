@@ -25,4 +25,4 @@ nbactions.xml
 /target/
 
 
-PruebaVista.java
+src/main/java/PruebaVista.java
